@@ -58,7 +58,7 @@
 </article>
 <%- partial('_partial/toc') %>
 
-<% if (!index && theme.share.on && (post.share != false || post.share)){ %>
+<% if (theme.share.on && (page.share && page.share)){ %>
     <%- partial('post/share') %>
 <% } %>
 
