@@ -13,5 +13,18 @@
         global: theme.open_in_new.global
     }) %>
 <%- partial('tab-title-change') %>
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async type="text/javascript" src="/resources/love.js"></script>
+<script type="text/javascript">
+  var flag = (window.navigator.userAgent.toLocaleLowerCase().indexOf('mobile') == -1);
+  if (flag) {
+    setTimeout(function() {
+      var theBody = document.getElementsByTagName('body').item(0);
+      var myScript = document.createElement('script');
+      myScript.src = '/resources/particle.js';
+      myScript.type = 'text/javascript';
+      myScript.defer = true;
+      theBody.appendChild(myScript);
+    }, 3000)
+  }
 </script>
