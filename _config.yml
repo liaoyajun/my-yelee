@@ -299,3 +299,9 @@ CDN:
   clipboard: //cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js
   mathjax: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js
   scrollreveal: //cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js
+
+livere:
+    on: true
+    livere_uid: "MTAyMC8zODEzMi8xNDY2Mg=="
+
+word_count: true
